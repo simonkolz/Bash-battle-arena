@@ -32,12 +32,45 @@ This serves as both:
 
 ---
 
-## **Arena Structure 🏟️**  
+## **Level Progression**  
 
-The Arena has **15 levels**, each focusing on a specific concept.  
-Every **5th level is a Boss Battle** where multiple skills are tested together.  
-
-> ⚠️ All challenges are solved locally (no web app). Each solution is pushed here to GitHub.  
+| Level | Topic | Mission |
+|-------|-------|---------|
+| **1** | Basics | Create a directory `Arena` with 3 files and list contents. |
+| **2** | Loops | Print numbers 1–10. |
+| **3** | Conditionals | Check if `hero.txt` exists. |
+| **4** | File Ops | Copy `.txt` files to `Backup`. |
+| **5** | **Boss Battle 1** | Combine Levels 1–4 into one script. |
+| **6** | Arguments | Print line count of a file. |
+| **7** | File Sorting | Sort `.txt` files by size. |
+| **8** | Multi-File Search | Search for a phrase across `.log` files. |
+| **9** | Monitoring | Watch a directory for changes. |
+| **10** | **Boss Battle 2** | Create random files, sort by size, archive `Victory` files. |
+| **11** | Disk Usage | Check usage vs. threshold. |
+| **12** | Config Parsing | Read key=value pairs. |
+| **13** | Backup Rotation | Keep the last 5 backups. |
+| **14** | Interactive Menu | Menu for disk space, uptime, users. |
+| **15** | **Boss Battle 3** | Menu-based script with backups + config parsing. |  
 
 ---
+
+## **The 4 Core Bash Tasks**  
+
+Outside the Arena, I also tackled **4 fundamental Bash exercises**:  
+
+1. **Basic Arithmetic** – Perform +, -, ×, ÷ on two inputs.  
+2. **File Operations** – Create, write, and read files.  
+3. **Conditionals** – Check if a file is readable, writable, or executable.  
+4. **Backup Script** – Copy `.txt` files to a backup folder.  
+
+---
+
+## **How to Use**  
+
+Clone the repository and try out the scripts yourself:  
+
+```bash
+git clone https://github.com/simonkolz/Bash-battle.git
+cd Bash-battle/arena
+
 
